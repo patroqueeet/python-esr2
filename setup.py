@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='esr2',
-    version=0.8,
+    version=0.9,
     url='https://github.com/patroqueeet/python-esr2',
     author='patroqueeet',
     author_email='patroqueeet@gmail.com',
