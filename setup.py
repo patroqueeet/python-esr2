@@ -2,13 +2,13 @@ from setuptools import setup
 
 setup(
     name='esr2',
-    version=0.9,
+    version=0.10,
     url='https://github.com/patroqueeet/python-esr2',
     author='patroqueeet',
     author_email='patroqueeet@gmail.com',
     description=('Read swiss BESR / v11 files'),
     license='GPL',
-    packages=['esr2', 'esr.utils'],
+    packages=['esr2', 'esr2.utils'],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
