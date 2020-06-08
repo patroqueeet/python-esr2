@@ -16,11 +16,11 @@ class ESR(object):
             raise ValueError('Too few lines in ESR data')
 
         if len(lines[0]) in (100, 126):
-            from esr.records import ESRRecordType3 as ESRRecord
-            from esr.records import ESRTotalRecordType3 as ESRTotalRecord
+            from esr2.records import ESRRecordType3 as ESRRecord
+            from esr2.records import ESRTotalRecordType3 as ESRTotalRecord
         elif len(lines[0]) == 200:
-            from esr.records import ESRRecordType4 as ESRRecord
-            from esr.records import ESRTotalRecordType4 as ESRTotalRecord
+            from esr2.records import ESRRecordType4 as ESRRecord
+            from esr2.records import ESRTotalRecordType4 as ESRTotalRecord
         else:
             raise ValueError('Invalid ESR format')
 

@@ -1,5 +1,5 @@
 from decimal import Decimal
-from esr.utils.utils import format_esr_nr, parse_date_string
+from esr2.utils.utils import format_esr_nr, parse_date_string
 
 __all__ = ['ESRRecord', 'ESRRecordType3', 'ESRTotalRecordType3',
            'ESRRecordType4', 'ESRTotalRecordType4', 'ESRValueError']
