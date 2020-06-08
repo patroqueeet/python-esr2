@@ -5,7 +5,7 @@ from distutils.sysconfig import get_python_lib
 from setuptools import find_packages, setup
 
 setup(
-    name='ESR Reader',
+    name='ESR',
     version=0.1,
     url='https://github.com/patroqueeet/python-esr2',
     author='patroqueeet',
