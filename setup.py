@@ -8,7 +8,7 @@ setup(
     author_email='patroqueeet@gmail.com',
     description=('Read swiss BESR / v11 files'),
     license='GPL',
-    packages=['esr2'],
+    packages=['esr2', 'esr.utils'],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
