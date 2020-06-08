@@ -1,8 +1,4 @@
-import os
-import sys
-from distutils.sysconfig import get_python_lib
-
-from setuptools import find_packages, setup
+from setuptools import setup
 
 setup(
     name='esr2',
@@ -12,7 +8,7 @@ setup(
     author_email='patroqueeet@gmail.com',
     description=('Read swiss BESR / v11 files'),
     license='GPL',
-    packages='',
+    packages=['esr2'],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
