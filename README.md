@@ -4,7 +4,7 @@ Swiss ESR bank record reader. Forked from https://bitbucket.org/loss/python-esr/
 ```py
 from esr.esr import ESR
 
-with open('/Users/jirkaschaefer/Desktop/tmp/__spy/testimport.v11', 'rt') as f:
+with open('testimport.v11', 'rt') as f:
     data = f.read()
 
 statement = ESR.parse(data)
