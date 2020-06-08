@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='esr2',
-    version=0.4,
+    version=0.5,
     url='https://github.com/patroqueeet/python-esr2',
     author='patroqueeet',
     author_email='patroqueeet@gmail.com',
